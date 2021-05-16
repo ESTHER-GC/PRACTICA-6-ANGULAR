@@ -32,7 +32,7 @@ implements OnInit {
 
   addOrEdit():void {
     let EdadPerson = parseInt(this.selectedPerson.Edad);
-    let FechaNac = new Date(this.selectedPerson.Cumpleanos)
+    let FechaNac = new Date(this.selectedPerson.Cumpleanos);
     let DiaNac = FechaNac.getDate();
     let MesNac = FechaNac.getMonth() + 1;
     let AnoNac = FechaNac.getFullYear();
